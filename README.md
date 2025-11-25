@@ -8,6 +8,16 @@ A modern, high-performance designer portfolio website template built with Astro.
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.14-38B2AC?logo=tailwind-css&logoColor=white)
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
+## Deploy
+
+One-click deploy this starter to Tencent EdgeOne Pages (installs, builds, and serves `dist/` automatically).
+
+[![Deploy to Tencent EdgeOne Pages](https://img.shields.io/badge/Deploy-Tencent%20EdgeOne%20Pages-006EFF?style=for-the-badge&logo=tencentqq&logoColor=white)](https://edgeone.ai/pages/new?template=https%3A%2F%2Fgithub.com%2Fnuonuo-888%2Fricoui-portfolio&output-directory=dist&build-command=npm+run+build&install-command=npm+install&origin_from=childtom)
+
+## Preview
+
+[![Preview](https://img.shields.io/badge/Preview-4ECCA3?style=for-the-badge&logo=globe&logoColor=white)](https://ricoui-portfolio.edgeone.app/)
+
 ## ✨ Features
 
 - 🚀 **Built with Astro** - Fast and lightweight static site generator
@@ -149,6 +159,7 @@ Add your work information in `src/collections/works.json`.
 Create new MDX files in the `src/content/post/` directory. The project uses Astro v5 Content Layer API with `glob` loader for content collections, ensuring compatibility with Astro v6.
 
 **Note**: This template has been fully upgraded to Astro v5.15 standards and is compatible with Astro v6:
+
 - ✅ Uses new Content Layer API (`glob` loader)
 - ✅ Uses `entry.id` instead of deprecated `entry.slug`
 - ✅ Uses `render(entry)` instead of deprecated `entry.render()`
@@ -162,7 +173,6 @@ Create new MDX files in the `src/content/post/` directory. The project uses Astr
 - **Bento Cards**：[Figma Bento Cards](https://www.figma.com/community/file/1231184483170475120)
 - **Social Cards**: [Figma Bento 2.5d](https://www.figma.com/community/file/1232620929235403629/bento-2-5d-widgets)
 
-
 ## 📧 Contact
 
 - **Author**: Ricoui
@@ -171,13 +181,11 @@ Create new MDX files in the `src/content/post/` directory. The project uses Astr
 - **Twitter**: [@ricouii](https://x.com/ricouii)
 - **GitHub**: [@ricocc](https://github.com/ricocc)
 
-
 ## 💡 Other Products
 
 - **Rico Blog** - Open Source: [https://github.com/ricocc/public-portfolio-site](https://github.com/ricocc/public-portfolio-site)
 
 - **OG Gallery**: [ricoog.com](https://ricoog.com/)
-
 
 ## 🙏 Acknowledgments
 
@@ -185,16 +193,13 @@ Create new MDX files in the `src/content/post/` directory. The project uses Astr
 - [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework
 - All developers who contributed to this project
 
-
 ## About the Author
 
-I'm Rico, a web/UI designer passionate about creating fun and creative work. I have experience in UI/UX design and am currently focused on web design, visual implementation, and exploring development projects. I regularly update my blog on <a href="https://ricoui.com/" target="_blank">Rico's Blog</a>. You can also follow me on Xiaohongshu  [@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f) 和 X [@ricouii](https://x.com/ricouii).
-
+I'm Rico, a web/UI designer passionate about creating fun and creative work. I have experience in UI/UX design and am currently focused on web design, visual implementation, and exploring development projects. I regularly update my blog on <a href="https://ricoui.com/" target="_blank">Rico's Blog</a>. You can also follow me on Xiaohongshu [@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f) 和 X [@ricouii](https://x.com/ricouii).
 
 Or add me on WeChat—let’s be friends.
 
 <img src="https://ricoui.com/assets/wechat.png" alt="ricocc-wechat" width="280" height="auto" style="display:inline-block;margin:12px;">
-
 
 ## 💜 Support the Author
 
