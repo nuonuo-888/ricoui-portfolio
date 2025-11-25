@@ -4,6 +4,7 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import { fileURLToPath } from "url";
 import path from "path";
+import edgeoneAdapter from "@edgeone/astro";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // Get the site URL from environment variables, or use the default value if not set
@@ -15,6 +16,7 @@ export default defineConfig({
   site: siteUrl,
   base: '/',
   envPrefix: 'PUBLIC_',
+  adapter: edgeoneAdapter(),
   vite: {
     plugins: [tailwindcss()],
     resolve: {
